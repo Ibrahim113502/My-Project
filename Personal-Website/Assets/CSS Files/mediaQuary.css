@@ -1,0 +1,351 @@
+@media screen and (max-width: 321px) {
+    .bodypage {
+      background-color: darkslategray;
+      overflow: hidden;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+     }
+     .navBar {
+      display: flex;
+      display: block;
+      gap: 174px;
+      position: fixed;
+      color: blanchedalmond;
+      background-color: darkslategray;
+    }
+  
+     .logoName {
+        margin-left: 14px;
+        margin-top: 12px;
+        font-size: 29px;
+        margin-bottom: 12px;
+    }
+     .name {
+      margin-bottom: 50px;
+      text-align: center;
+      color: blanchedalmond;
+      margin-top: 121px;
+      padding: 0px;
+  }
+    .home{
+      font-size: 24px;margin-right: 0px;
+    }
+    .indexHeading {
+      display: flex;
+      display: none;
+      margin-left: 721px;
+      margin-top: 2px;
+      margin-bottom: 15px;
+      padding-top: 19px;
+      gap: 20px;
+      color: blanchedalmond;
+  }
+
+    .about {
+      background-color: aliceblue;
+      display: flex;
+      display: block;
+  }
+  .Img1 {
+    position: relative;
+    padding-left: 0%;
+    padding-top: 49px;
+    padding-bottom: 49px;
+    width: -webkit-fill-available;
+    border-radius: 0%;
+}
+.heading{  
+  font-size: 21px;
+  text-align: center;
+  margin-right: 0px;
+  margin-top: -15%;   
+}
+
+.heading2{
+    
+  font-size: 12px;
+  text-align: center;
+  margin-right: 0%;
+}
+
+.heading3{
+  
+  font-size: 17px;
+  text-align: center;
+  margin-right: 0px;
+}
+.aboutDiscription {
+  padding-left: 0px;
+  padding-top: 0px;
+  text-align: center;
+  font-size: small;
+}
+.ser {
+  color: blanchedalmond;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+.ser1 {
+  color: blanchedalmond;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 22px;
+}
+.serviceGrid {
+  display: flex;
+  display: block;
+  grid-template-rows: repeat(2, 200fr);
+  grid-template-columns: repeat(3, 27vw);
+  color: beige;
+  padding-left: 0px;
+  padding-top: 0px;
+ 
+  column-gap: 60px;
+  row-gap: 120px;
+  border-color: aliceblue;
+  text-align: center;
+}
+.item1 :hover{
+  background-color: burlywood;
+}
+
+.ourWorks {
+  display: flex;
+  display: block;
+  cursor: pointer;
+  color: aliceblue;
+  gap: 48px;
+  margin-left: 137px;
+  margin-top: 20px;
+}
+
+.worksGrid {
+  margin-top: 36px;
+  padding: 10px;
+  display: grid;
+  display: block;
+  grid-template-rows: repeat(10, 59fr);
+  grid-template-columns: repeat(5, 16vw);
+  row-gap: 32px;
+  column-gap: 23px;
+  image-resolution: 50%;
+}
+.i8icon {
+  position: relative;
+  margin-top: 8px;
+  margin-left: 20px;
+  height: 12%;
+  width: 9%;
+}
+.i7 {
+  grid-row-start: 1;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin-left: 24px;
+  font-size: 21px;
+}
+.i7Down{
+  margin-left: 199px;
+  font-size: 15px;
+}
+.i8 {
+  margin-left: -2px;
+  font-size: 21px;
+}
+.i8Down{
+  margin-left: 200px;
+  font-size:15px;
+}
+.i9 {
+  margin-left: 20px;
+  font-size: 21px;
+}
+.i9Down{
+  margin-left: 200px;
+  font-size:15px;
+}
+
+.i10 {
+  margin-left: 20px;
+  font-size: 21px;
+}
+.i10Down{
+  margin-left: 200px;
+  font-size:15px;
+}
+.i11 {
+  margin-left: 20px;
+  font-size: 21px;
+}
+.i11Down{
+  margin-left: 200px;
+  font-size:15px;
+}
+
+
+.i12 {
+  margin-left: 20px;
+  font-size: 21px;
+}
+.i12Down{
+  margin-left: 200px;
+  font-size:15px;
+}
+.button1{
+    background-color: gray;
+    border: 19px;
+    color: white;
+    box-sizing: border-box;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: auto;
+    font-size: 16px;
+    border-radius: 9%;
+    cursor: pointer;
+    margin-bottom: 16px;
+    margin-left: 73px;
+    margin-top: 25px;
+  }
+  .reviewes {
+    display: flex;
+    display: block;
+    text-align: center;
+    gap: 217px;
+    margin-left: 29px;
+    margin-top: 48px;
+    color: rgb(225, 235, 235);
+}
+.reviewes1{
+  display: flex;
+  gap: 25%;
+}
+.client{
+  margin-left: 0%;
+  margin-right: -42%;
+}
+.clientImage {
+  height: 45%;
+  width: 62%;
+}
+.project{
+  margin-left: 25%;
+  margin-top: 6px;
+}
+.projectImage {
+  height: 44%;
+  width: 62%;
+}
+.reviewes2{
+  margin-right: -84%; ;
+}
+.coffee{
+  margin-top: -24px;
+  margin-left: -77%;
+}
+.coffeeImage {
+  height: 22%;
+  width: 112px;
+}
+.review {
+  margin-top: -157px;
+  margin-left: -16%;
+}
+.reviewImage {
+  height: 22%;
+  width: 16%;
+}
+.testimonial {
+  margin-top: 100px;
+  margin-left: 445px;
+}
+.testiImage {
+  border-radius: 107%;
+  height: 79%;
+  width: 374%;
+  margin-left: -2318%;
+}
+.testipara {
+  color: aliceblue;
+  font-size: small;
+  text-align: center;
+}
+.testi {
+  padding: 2%;
+  border-radius: 59%;
+  background-color: #2e9774;
+}
+.clientHead {
+  color: bisque;
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: -26%;
+}
+.clientTag {
+  color: blanchedalmond;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: -25%;
+}
+.clientLine1 {
+  display: flex;
+  display: block; 
+  height: 22%;
+  width: 58%;
+  margin-left: 81px;
+}
+.clientLine2 {
+  display: flex;
+  display: block;
+  height: 22%;
+  width: 54%;
+  margin-left: 81px;
+}
+.contactItems {
+  display: flex;
+  display: block;
+  margin-top: 73px;
+  margin-left: 0px; 
+}
+.namebox {
+  border: 10px;
+  border-color: grey;
+  color: black;
+  height: 40px;
+  width: 290px;
+  margin-top: 20%;
+  margin-left: -49%;
+}
+.emailbox {
+  border: 10px;
+  border-color: grey;
+  color: black;
+  height: 40px;
+  width: 290px;
+  margin-left: -49%;
+}
+.quarybox {
+  border: 10px;
+  border-color: grey;
+  color: black;
+  height: 120px;
+  width: 287px;
+  margin-top: 16%;
+  margin-left: -85%;
+}
+.message {
+  background-color: lightseagreen;
+  color: white;
+  margin-left: 92px;
+  width: 122px;
+  height: 41px;
+}
+
+}
+

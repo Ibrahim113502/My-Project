@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    padding: 50px;
+    font-size: 67px;
+    text-align: center;
+    color: aliceblue;
+}
+.details{
+    padding: 35px;
+    display: flex;
+    color: aliceblue;
+    gap: 78px;
+    text-align: center;
+    margin-left: 349px;
+}
+.about{
+    padding-top: 20px;
+    padding-left: 171px;
+    padding-right: 151px;
+    padding-bottom: 200px;
+}
